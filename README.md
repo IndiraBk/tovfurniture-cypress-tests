@@ -8,24 +8,31 @@ This project contains **Cypress automated tests** for the TOV Furniture website.
 
 ## 📂 Project Structure
 
-TOV-AUTOMATION
-├── .github/workflows/cypress.yaml # GitHub Actions workflow
-├── cypress
-│ ├── e2e # Test specs
-│ │ ├── account.cy.js
-│ │ └── addToCart.cy.js
-│ ├── fixtures # Test data
-│ │ └── user_credentials.json
-│ ├── page_objects # Page Object files
-│ │ ├── account.page.js
-│ │ └── login.page.js
-│ └── support # Cypress support files
-│ ├── commands.js
-│ └── e2e.js
-├── cypress.config.js # Cypress configuration
-├── package.json # Project dependencies and scripts
+```plaintext
+TOV-AUTOMATION/
+│
+├── .github/
+│   └── workflows/
+│       └── cypress.yaml         # GitHub Actions workflow
+│
+├── cypress/
+│   ├── e2e/                     # Test specs
+│   │   ├── account.cy.js
+│   │   └── addToCart.cy.js
+│   ├── fixtures/                # Test data
+│   │   └── user_credentials.json
+│   ├── page_objects/            # Page Object files
+│   │   ├── account.page.js
+│   │   └── login.page.js
+│   └── support/                 # Cypress support files
+│       ├── commands.js
+│       └── e2e.js
+│
+├── cypress.config.js            # Cypress configuration
+├── package.json                 # Project dependencies and scripts
 ├── package-lock.json
 └── .gitignore
+
 
 ---
 
