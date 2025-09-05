@@ -16,7 +16,7 @@ describe("Account Test", () => {
     loginPage.SignInBtn.click();
 
     cy.url().should("include", "/account");
-    accountPage.greetingMessage.should("contain.text", "Hi, test!");
+    accountPage.greetingMessage.should("contain.text", "Hi, Cypress!");
     accountPage.accountHeader.should("have.text", "My Account");
   });
 
